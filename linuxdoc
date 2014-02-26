@@ -1,3 +1,29 @@
+Things to look into: Doxygen, Nerdtree, vim-enhanced for colored words
+
+Commands: 
+Dangerous:
+rm -rf*
+use ls -r* first
+echo "newstuff" > oldfile, overites old file
+SCP, secure copy
+DD, duplicate, be careful!!!
+
+Not so dangerous:
+
+ls -la
+echo,tar,history,find,xargs, mkdir -p
+touch, updates all files, good for adjusting make
+make
+tar, used to make backups and open tarballs.
+ps -aux, shows all processes?
+kill -9 pid, kills a process
+df, free disc space -h
+free, shows free mem
+head tail, show certain number of lines, like cat
+ln -a, a symbolic link?
+
+
+
 etc/fstab, shows filesystems
 
 teradata
@@ -62,3 +88,9 @@ asciidoc, slidy. found it!
 agreen57@kennesaw.edu
  
 the cucus egg. 
+
+filesystem:
+proc, shows whats running as a file
+etc, most config files here
+lib, contains libraries for apps
+tmp, holds junk from files, removed on reboot.
