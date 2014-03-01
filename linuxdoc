@@ -1,0 +1,64 @@
+etc/fstab, shows filesystems
+
+teradata
+
+ext4 filesystem
+nfsv4 good for setting up servers, kerberose
+udp vs tcp. use tcp. 
+learn regular expressions.  ll /dev/[cd][dv][drw]*
+ll = ls -l
+regex = regular expressions
+mount shows what is mounted on the machine
+grep regular expression that looks for things?
+> output what follows and repplace if exists
+>> same, but append.
+< read from 
+| send stdout to next stdin, called piping
+time shows how long it takes to do something
+0, out, 1, in, 2, stderror.  2>>
+which command?
+vim, asci thingy, use scribly somesuch to output to web!
+man gcc is long apparently.
+--help or info
+ssh, secure shell, uses encryption via port tunnelling. can use keys.
+scp, secure copy moves files from machine a to machine b.
+rsync, remote sync, can use an ssh tunnel to replicate files or entire filetrees. awesome for backups.
+
+ssh user@remotehost
+ssh user@remotehost 'command1; command2'
+ssh -X user@rh '<X command>' shows whatever is on the the other things screen. sortof
+ssh -L <localport>:localhost:<remote port> <username>@<hostname> poor mans vpn
+	25			2525		
+use putty
+ssh-keygen makes keys
+ssh-copy-id copys keys, can distribute keys along network
+look up scp. appears to allow sharing stuff from one machine to the other
+scp -r somedir host2: 
+
+rsync -av workdir/ backupdir  backs upthe fracking directory
+rsync -avz -e "ssh -l <remoteuser>... look at manpages
+
+permisions read write execute: rwx
+d = directory
+first block is owner, second block is group, third is owner.
+. at the end means uses older ackles, locks things down.
++ at the end means you can change them, aka the permissions are at your discression
+access controls can be changed via fackle.
+SElinux, users cant hit Inodes, apparmor uses filepaths allowing them to read Inodes.
+
+sudo = superuser do
+
+commands: sed, awk, grep, diff, patch, chmod, chown, tr, split, join, df, du, wget, ncat, tac, lsmod, lspci, lsusb, seq, zgrep, which, locate, su
+wget = web get.
+curl for larger than 1gb files. will reconnect if disconnected!
+ncat can open net connections btw computers. 
+lsmod, shows modules in kernal. 
+seq 1 10. 
+
+bash programming sounds like fun.  Not to hard to learn, very different from most stuff.
+
+asciidoc, slidy. found it! 
+
+agreen57@kennesaw.edu
+ 
+the cucus egg. 
